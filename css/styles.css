@@ -56,7 +56,7 @@ label {
 input, select {
     background-color: #e2e2e2;
     border: none;
-    border-radius: .5em;    
+    border-radius: .25em;    
 }
  select {
     font-size: larger;
@@ -95,14 +95,14 @@ footer p {
     margin-top: .3em;
     padding-bottom: 3em;
 }
-.cont-info {
+.c-info {
     display: flex;
     flex-direction: column;
 }
 .cont-info input, select {
     height: 65px;
 }
-.cont-info input:last-child {
+.zip input:last-child {
     width:50%
 }
 input::placeholder {
@@ -128,6 +128,49 @@ input::placeholder {
 }
 /* media queries */
 
-@media screen and {min-width: 768px;
-    
+@media screen and (min-width: 768px) {
+    main {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    header {
+        font-size: .8rem;
+    }
+    p {
+        margin: 0;
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    main p {
+        margin: 1em 0;
+    }
+    .cont-info label, label {
+        font-size: 1rem;
+    }
+    .cont-info label {
+        
+        padding-top: 2em;
+    }
+    .cont-info {
+        max-width: 100%;
+    }
+    .c-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .cont-info input, select {
+        height: 50px;
+        margin: 1.1em 0;
+        min-width: 80%;
+    }
+    .zip input:last-child {
+        width:50%; 
+    }
+    .more input {
+        height: 100px;
+    }
 }
