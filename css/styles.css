@@ -145,11 +145,10 @@ input::placeholder {
         margin: 0 auto;
     }
     header {
-        font-size: 2rem;
-        padding: 1em;
+        font-size: .8rem;
+        padding: 1.5em;
     }
     .intro h2 {
-        font-size: 1.5rem;
         padding-bottom: .5em;
     }
     .intro p {
@@ -160,10 +159,7 @@ input::placeholder {
         margin: 0;
         font-size: 1rem;
     }
-    /* h2 {
-        font-size: 1.5rem;
-        padding-bottom: 1em;
-    } */
+  
     main p {
         margin: 1em 0;
     }
