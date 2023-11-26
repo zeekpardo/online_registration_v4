@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body {
+   text-align: left;
+   font-family: 'Merriweather', serif;
+   color: #2c3945;
+   background-color:whitesmoke;
+}
+header, .intro, footer, button {
+    text-align: center;
+}
+
+header {
+    color: white;
+    background-color:#2c3945;
+    padding: 2em;
+}
+main {
+    margin: 0 1em;
+}
+ 
+header h1 {
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+p {
+    color: #808080;
+    font-size: 1.3rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+ h2 {
+    font-size: 1.7rem;
+    padding: 1em;
+ }
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 1em 0;;
+}
+label {
+    color: #808080;
+    font-size: 1.3rem;
+    text-align: left;
+    padding: .5em 0;
+}
+input, select {
+    background-color: #e2e2e2;
+    border: none;
+    border-radius: .5em;    
+}
+ select {
+    font-size: larger;
+    font-style: italic;
+    color: #adadad;
+}
+button {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: white;
+    background-color: #4dbbb5;
+    width: 100%;
+    height: 100px;
+    border-radius: .5em;
+    border: none;
+}
+
+footer {
+    margin: 2em 0;
+}
+footer p {
+    font-size: 1em;
+    font-style: italic;
+    color: #adadad;
+}
+.intro p {
+    font-size: 1.4rem;
+    margin-bottom: 2em;
+}
+.intro {
+    border-bottom: 6px solid #2c3945;
+}
+.container-fieldset1 {
+    border-top: 3px solid #2c3945;
+    border-bottom: 3px solid #2c3945;;
+    margin-top: .3em;
+    padding-bottom: 3em;
+}
+.cont-info {
+    display: flex;
+    flex-direction: column;
+}
+.cont-info input, select {
+    height: 65px;
+}
+.cont-info input:last-child {
+    width:50%
+}
+input::placeholder {
+    font-size: larger;
+    font-style: italic;
+    color: #adadad;
+    text-align: right;
+    margin-right: .7em;
+}
+.subs {
+    display: flex;
+}
+.subs input {
+    margin-right: 1em;
+}
+.more {
+    margin-top: 2em;
+}
+.more input {
+    width: 100%;
+    height: 150px;
+    margin: 1.7em 0;
+}
+/* media queries */
+
+@media screen and {min-width: 768px;
+    
+}
